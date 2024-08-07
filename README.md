@@ -32,6 +32,14 @@ export default {
 
 ## setup
 
-- create app
-- tailwind css
-  - <https://tailwindcss.com/docs/guides/vite>
+### create app
+
+
+### tailwind css
+- <https://tailwindcss.com/docs/guides/vite>
+
+### framer-motion
+
+```sh
+npm i framer-motion
+```
