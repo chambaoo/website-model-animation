@@ -5,6 +5,7 @@ function App() {
   return (
     <>
       <div className='h-screen bg-slate-900'>
+        <div className='container mx-auto'>
         {/* header */}
         <header className='flex text-white'>
           <span>Website Model Animation</span>
@@ -19,6 +20,7 @@ function App() {
             </ul>
           </nav>
         </header>
+        </div>
         <motion.div
           initial={{ x: 100 }}
           animate={{ x: 0 }}
