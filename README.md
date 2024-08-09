@@ -35,8 +35,11 @@ export default {
 ### create app
 
 
-### tailwind css
+### Trailwind CSS
 - <https://tailwindcss.com/docs/guides/vite>
+
+#### チートシート
+- <https://nerdcave.com/tailwind-cheat-sheet>
 
 ### framer-motion
 
