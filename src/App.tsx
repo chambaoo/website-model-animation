@@ -5,21 +5,21 @@ function App() {
   return (
     <>
       <div className='h-screen bg-slate-900'>
-        <div className='container mx-auto'>
-        {/* header */}
-        <header className='flex text-white'>
-          <span>Website Model Animation</span>
-          <nav>
-            <ul>
-              <li>
-                <a href='/'>Home</a>
-              </li>
-              <li>
-                <a href='#about'>About</a>
-              </li>
-            </ul>
-          </nav>
-        </header>
+        <div className='container mx-auto py-2 px-2'>
+          {/* header */}
+          <header className='flex justify-between text-white'>
+            <span>Website Model Animation</span>
+            <nav>
+              <ul>
+                <li>
+                  <a href='/'>Home</a>
+                </li>
+                <li>
+                  <a href='#about'>About</a>
+                </li>
+              </ul>
+            </nav>
+          </header>
         </div>
         <motion.div
           initial={{ x: 100 }}
