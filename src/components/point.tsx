@@ -1,10 +1,12 @@
 function Point() {
 
+  const text = 'jp ポイント';
   const point = 500;
+
 
   return (
     <>
-        <div>{point}</div>
+        <div>{text} : {point}</div>
     </>
   )
 }
