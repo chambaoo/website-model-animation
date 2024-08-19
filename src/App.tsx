@@ -1,4 +1,5 @@
 import { motion } from 'framer-motion';
+import Point from './components/point';
 
 function App() {
 
@@ -25,6 +26,9 @@ function App() {
             </nav>
           </header>
         </motion.div>
+        <body className='flex justify-between text-white'>
+          <Point />
+        </body>
       </div>
     </>
   )
