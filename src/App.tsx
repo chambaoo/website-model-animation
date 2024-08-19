@@ -5,7 +5,11 @@ function App() {
   return (
     <>
       <div className='h-screen bg-slate-900'>
-        <div className='container mx-auto py-2 px-2'>
+        <motion.div
+          initial={{ y: -100 }}
+          animate={{ y: 0 }}
+          transition={{ duration: 1, delay: 0.5 }}
+          className='container mx-auto py-2 px-2'>
           {/* header */}
           <header className='flex justify-between text-white'>
             <span>Website Model Animation</span>
@@ -20,12 +24,6 @@ function App() {
               </ul>
             </nav>
           </header>
-        </div>
-        <motion.div
-          initial={{ x: 100 }}
-          animate={{ x: 0 }}
-          transition={{ duration: 1, delay: 0.5 }}
-          className='w-28 h-28 bg-red-600'>
         </motion.div>
       </div>
     </>
