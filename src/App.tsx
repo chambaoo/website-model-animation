@@ -26,8 +26,10 @@ function App() {
             </nav>
           </header>
         </motion.div>
-        <body className='flex justify-between text-white'>
-          <Point />
+        <body className='container mx-auto'>
+          <div className='flex justify-between text-white'>
+            <Point />
+          </div>
         </body>
       </div>
     </>
