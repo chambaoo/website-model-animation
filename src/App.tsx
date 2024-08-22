@@ -26,9 +26,23 @@ function App() {
             </nav>
           </header>
         </motion.div>
-        <body className='container mx-auto'>
-          <div className='flex justify-between text-white'>
+        <body className='container mx-auto text-white'>
+          <div className='flex justify-between'>
             <Point />
+          </div>
+          <div>
+            <section>
+              <h2 className='my-4 text-4xl'>1日目</h2>
+              <p className='mx-8'>よく食べて、しっかり眠ること</p>
+            </section>
+            <section>
+              <h2 className='my-4 text-4xl'>2日目</h2> 
+              <p className='mx-8'>能力覚醒！</p>
+            </section>
+            <section>
+              <h2 className='my-4 text-4xl'>3日目</h2>
+              <p className='mx-8'>Happy Hacking</p>
+            </section>
           </div>
         </body>
       </div>
