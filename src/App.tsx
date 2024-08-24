@@ -1,5 +1,6 @@
 import { motion } from 'framer-motion';
 import Point from './components/point';
+import Card from './components/card';
 
 function App() {
 
@@ -47,23 +48,13 @@ function App() {
               <h2 className='my-4 text-4xl'>バインダー</h2>
               <ul>
                 <li className='my-2'>
-                  <a href="#card1" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">No. 001</h5>
-                  <p class="font-normal text-gray-700 dark:text-gray-400">Description: here is a sample card.</p>
-                  </a>
+                  <Card />
                 </li>
                 <li className='my-2'>
-                  <a href="#card2" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">No. 002</h5>
-                  <p class="font-normal text-gray-700 dark:text-gray-400">Description: here is a sample card.</p>
-                  </a>
+                  <Card />
                 </li>
                 <li className='my-2'>
-                  <a href="#card3" class="block max-w-sm p-6 bg-white border border-gray-200 rounded-lg shadow hover:bg-gray-100 dark:bg-gray-800 dark:border-gray-700 dark:hover:bg-gray-700">
-
-                  <h5 class="mb-2 text-2xl font-bold tracking-tight text-gray-900 dark:text-white">No. 003</h5>
-                  <p class="font-normal text-gray-700 dark:text-gray-400">Description: here is a sample card.</p>
-                  </a>
+                  <Card />
                 </li>
               </ul>
             </section>
