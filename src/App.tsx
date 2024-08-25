@@ -48,13 +48,13 @@ function App() {
               <h2 className='my-4 text-4xl'>バインダー</h2>
               <ul>
                 <li className='my-2'>
-                  <Card />
+                  <Card id={1}/>
                 </li>
                 <li className='my-2'>
-                  <Card />
+                  <Card id={2}/>
                 </li>
                 <li className='my-2'>
-                  <Card />
+                  <Card id={3}/>
                 </li>
               </ul>
             </section>
