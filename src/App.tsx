@@ -48,10 +48,10 @@ function App() {
               <h2 className='my-4 text-4xl'>バインダー</h2>
               <ul>
                 <li className='my-2'>
-                  <Card id={1}/>
+                  <Card id={1} name='シュークリーム'/>
                 </li>
                 <li className='my-2'>
-                  <Card id={2}/>
+                  <Card id={2} name='ビスケット'/>
                 </li>
                 <li className='my-2'>
                   <Card id={3}/>
