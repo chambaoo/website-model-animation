@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
 import Point from './components/Point';
-import Card from './components/CardItem';
+import CardList from './components/CardList';
 
 function App() {
 
@@ -32,32 +32,7 @@ function App() {
             <Point />
           </div>
           <div>
-            <section>
-              <h2 className='my-4 text-4xl'>1日目</h2>
-              <p className='mx-8'>よく食べて、しっかり眠ること</p>
-            </section>
-            <section>
-              <h2 className='my-4 text-4xl'>2日目</h2> 
-              <p className='mx-8'>能力覚醒！</p>
-            </section>
-            <section>
-              <h2 className='my-4 text-4xl'>3日目</h2>
-              <p className='mx-8'>Happy Hacking</p>
-            </section>
-            <section>
-              <h2 className='my-4 text-4xl'>バインダー</h2>
-              <ul>
-                <li className='my-2'>
-                  <Card id={1} name='シュークリーム'/>
-                </li>
-                <li className='my-2'>
-                  <Card id={2} name='ビスケット'/>
-                </li>
-                <li className='my-2'>
-                  <Card id={3}/>
-                </li>
-              </ul>
-            </section>
+            <CardList />
           </div>
         </body>
       </div>
