@@ -1,4 +1,4 @@
-function Point() {
+const Point = () => {
 
   const text = 'jp ポイント';
   const point = 500;

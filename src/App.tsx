@@ -1,6 +1,6 @@
 import { motion } from 'framer-motion';
-import Point from './components/point';
-import Card from './components/card';
+import Point from './components/Point';
+import Card from './components/Card';
 
 function App() {
 
